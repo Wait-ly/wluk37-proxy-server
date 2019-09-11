@@ -41,9 +41,12 @@ npm install
 
 'GET': /api/:restaurantName/reviews
   - finds all reviews for a particular restaurant
+
 'POST': /api/:restaurantName/reviews
   - posts a new review for a particular restaurant
+
 'PUT': /api/:restaurantName/reviews
   - updates a review for a particular restaurant
+
 'DELETE': /api/:restaurantName/reviews
   - deletes a review for a particular restaurant
