@@ -39,14 +39,14 @@ npm install
 ```
 ## CRUD API Routes
 
-'GET': /api/:restaurantName/reviews
+'GET': /api/listings/:restaurantID/reviews
   - finds all reviews for a particular restaurant
 
-'POST': /api/:restaurantName/reviews
+'POST': /api/listings/:restaurantID/reviews
   - posts a new review for a particular restaurant
 
-'PUT': /api/:restaurantName/reviews
+'PUT': /api/listings/:restaurantID/reviews/:reviewID
   - updates a review for a particular restaurant
 
-'DELETE': /api/:restaurantName/reviews
+'DELETE': /api/:restaurantID/reviews/:reviewID
   - deletes a review for a particular restaurant
