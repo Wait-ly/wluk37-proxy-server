@@ -9,7 +9,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['proxy-wluk'],
+  app_name: ['proxy-wluk ec2'],
   /**
    * Your New Relic license key.
    */
