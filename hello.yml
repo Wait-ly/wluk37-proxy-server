@@ -1,0 +1,11 @@
+config:
+  target: 'http://52.15.51.75:3000'
+  phases:
+    - duration: 60
+      arrivalRate: 10
+scenarios:
+  - flow:
+      - get:
+          url: /{{$randomNumber(1, 999999)}}
+
+count: 100
